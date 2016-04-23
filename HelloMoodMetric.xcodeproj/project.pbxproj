@@ -1,0 +1,498 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		307303C41CCBFECF00B12127 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307303C31CCBFECF00B12127 /* AppDelegate.swift */; };
+		307303C61CCBFECF00B12127 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307303C51CCBFECF00B12127 /* ViewController.swift */; };
+		307303C81CCBFECF00B12127 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 307303C71CCBFECF00B12127 /* Assets.xcassets */; };
+		307303CB1CCBFECF00B12127 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 307303C91CCBFECF00B12127 /* Main.storyboard */; };
+		307303D61CCBFECF00B12127 /* HelloMoodMetricTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307303D51CCBFECF00B12127 /* HelloMoodMetricTests.swift */; };
+		307303E11CCBFECF00B12127 /* HelloMoodMetricUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307303E01CCBFECF00B12127 /* HelloMoodMetricUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		307303D21CCBFECF00B12127 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 307303B81CCBFECF00B12127 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 307303BF1CCBFECF00B12127;
+			remoteInfo = HelloMoodMetric;
+		};
+		307303DD1CCBFECF00B12127 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 307303B81CCBFECF00B12127 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 307303BF1CCBFECF00B12127;
+			remoteInfo = HelloMoodMetric;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		307303C01CCBFECF00B12127 /* HelloMoodMetric.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloMoodMetric.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		307303C31CCBFECF00B12127 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		307303C51CCBFECF00B12127 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		307303C71CCBFECF00B12127 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		307303CA1CCBFECF00B12127 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		307303CC1CCBFECF00B12127 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		307303D11CCBFECF00B12127 /* HelloMoodMetricTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloMoodMetricTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		307303D51CCBFECF00B12127 /* HelloMoodMetricTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloMoodMetricTests.swift; sourceTree = "<group>"; };
+		307303D71CCBFECF00B12127 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		307303DC1CCBFECF00B12127 /* HelloMoodMetricUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloMoodMetricUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		307303E01CCBFECF00B12127 /* HelloMoodMetricUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloMoodMetricUITests.swift; sourceTree = "<group>"; };
+		307303E21CCBFECF00B12127 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		307303BD1CCBFECF00B12127 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		307303CE1CCBFECF00B12127 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		307303D91CCBFECF00B12127 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		307303B71CCBFECF00B12127 = {
+			isa = PBXGroup;
+			children = (
+				307303C21CCBFECF00B12127 /* HelloMoodMetric */,
+				307303D41CCBFECF00B12127 /* HelloMoodMetricTests */,
+				307303DF1CCBFECF00B12127 /* HelloMoodMetricUITests */,
+				307303C11CCBFECF00B12127 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		307303C11CCBFECF00B12127 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				307303C01CCBFECF00B12127 /* HelloMoodMetric.app */,
+				307303D11CCBFECF00B12127 /* HelloMoodMetricTests.xctest */,
+				307303DC1CCBFECF00B12127 /* HelloMoodMetricUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		307303C21CCBFECF00B12127 /* HelloMoodMetric */ = {
+			isa = PBXGroup;
+			children = (
+				307303C31CCBFECF00B12127 /* AppDelegate.swift */,
+				307303C51CCBFECF00B12127 /* ViewController.swift */,
+				307303C71CCBFECF00B12127 /* Assets.xcassets */,
+				307303C91CCBFECF00B12127 /* Main.storyboard */,
+				307303CC1CCBFECF00B12127 /* Info.plist */,
+			);
+			path = HelloMoodMetric;
+			sourceTree = "<group>";
+		};
+		307303D41CCBFECF00B12127 /* HelloMoodMetricTests */ = {
+			isa = PBXGroup;
+			children = (
+				307303D51CCBFECF00B12127 /* HelloMoodMetricTests.swift */,
+				307303D71CCBFECF00B12127 /* Info.plist */,
+			);
+			path = HelloMoodMetricTests;
+			sourceTree = "<group>";
+		};
+		307303DF1CCBFECF00B12127 /* HelloMoodMetricUITests */ = {
+			isa = PBXGroup;
+			children = (
+				307303E01CCBFECF00B12127 /* HelloMoodMetricUITests.swift */,
+				307303E21CCBFECF00B12127 /* Info.plist */,
+			);
+			path = HelloMoodMetricUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		307303BF1CCBFECF00B12127 /* HelloMoodMetric */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 307303E51CCBFECF00B12127 /* Build configuration list for PBXNativeTarget "HelloMoodMetric" */;
+			buildPhases = (
+				307303BC1CCBFECF00B12127 /* Sources */,
+				307303BD1CCBFECF00B12127 /* Frameworks */,
+				307303BE1CCBFECF00B12127 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HelloMoodMetric;
+			productName = HelloMoodMetric;
+			productReference = 307303C01CCBFECF00B12127 /* HelloMoodMetric.app */;
+			productType = "com.apple.product-type.application";
+		};
+		307303D01CCBFECF00B12127 /* HelloMoodMetricTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 307303E81CCBFECF00B12127 /* Build configuration list for PBXNativeTarget "HelloMoodMetricTests" */;
+			buildPhases = (
+				307303CD1CCBFECF00B12127 /* Sources */,
+				307303CE1CCBFECF00B12127 /* Frameworks */,
+				307303CF1CCBFECF00B12127 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				307303D31CCBFECF00B12127 /* PBXTargetDependency */,
+			);
+			name = HelloMoodMetricTests;
+			productName = HelloMoodMetricTests;
+			productReference = 307303D11CCBFECF00B12127 /* HelloMoodMetricTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		307303DB1CCBFECF00B12127 /* HelloMoodMetricUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 307303EB1CCBFECF00B12127 /* Build configuration list for PBXNativeTarget "HelloMoodMetricUITests" */;
+			buildPhases = (
+				307303D81CCBFECF00B12127 /* Sources */,
+				307303D91CCBFECF00B12127 /* Frameworks */,
+				307303DA1CCBFECF00B12127 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				307303DE1CCBFECF00B12127 /* PBXTargetDependency */,
+			);
+			name = HelloMoodMetricUITests;
+			productName = HelloMoodMetricUITests;
+			productReference = 307303DC1CCBFECF00B12127 /* HelloMoodMetricUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		307303B81CCBFECF00B12127 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "André-John Mas";
+				TargetAttributes = {
+					307303BF1CCBFECF00B12127 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					307303D01CCBFECF00B12127 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 307303BF1CCBFECF00B12127;
+					};
+					307303DB1CCBFECF00B12127 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 307303BF1CCBFECF00B12127;
+					};
+				};
+			};
+			buildConfigurationList = 307303BB1CCBFECF00B12127 /* Build configuration list for PBXProject "HelloMoodMetric" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 307303B71CCBFECF00B12127;
+			productRefGroup = 307303C11CCBFECF00B12127 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				307303BF1CCBFECF00B12127 /* HelloMoodMetric */,
+				307303D01CCBFECF00B12127 /* HelloMoodMetricTests */,
+				307303DB1CCBFECF00B12127 /* HelloMoodMetricUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		307303BE1CCBFECF00B12127 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				307303C81CCBFECF00B12127 /* Assets.xcassets in Resources */,
+				307303CB1CCBFECF00B12127 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		307303CF1CCBFECF00B12127 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		307303DA1CCBFECF00B12127 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		307303BC1CCBFECF00B12127 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				307303C61CCBFECF00B12127 /* ViewController.swift in Sources */,
+				307303C41CCBFECF00B12127 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		307303CD1CCBFECF00B12127 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				307303D61CCBFECF00B12127 /* HelloMoodMetricTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		307303D81CCBFECF00B12127 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				307303E11CCBFECF00B12127 /* HelloMoodMetricUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		307303D31CCBFECF00B12127 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 307303BF1CCBFECF00B12127 /* HelloMoodMetric */;
+			targetProxy = 307303D21CCBFECF00B12127 /* PBXContainerItemProxy */;
+		};
+		307303DE1CCBFECF00B12127 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 307303BF1CCBFECF00B12127 /* HelloMoodMetric */;
+			targetProxy = 307303DD1CCBFECF00B12127 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		307303C91CCBFECF00B12127 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				307303CA1CCBFECF00B12127 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		307303E31CCBFECF00B12127 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		307303E41CCBFECF00B12127 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		307303E61CCBFECF00B12127 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = HelloMoodMetric/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.terra-azure.HelloMoodMetric";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		307303E71CCBFECF00B12127 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = HelloMoodMetric/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.terra-azure.HelloMoodMetric";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		307303E91CCBFECF00B12127 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = HelloMoodMetricTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.terra-azure.HelloMoodMetricTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HelloMoodMetric.app/Contents/MacOS/HelloMoodMetric";
+			};
+			name = Debug;
+		};
+		307303EA1CCBFECF00B12127 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = HelloMoodMetricTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.terra-azure.HelloMoodMetricTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HelloMoodMetric.app/Contents/MacOS/HelloMoodMetric";
+			};
+			name = Release;
+		};
+		307303EC1CCBFECF00B12127 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = HelloMoodMetricUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.terra-azure.HelloMoodMetricUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HelloMoodMetric;
+			};
+			name = Debug;
+		};
+		307303ED1CCBFECF00B12127 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = HelloMoodMetricUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.terra-azure.HelloMoodMetricUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HelloMoodMetric;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		307303BB1CCBFECF00B12127 /* Build configuration list for PBXProject "HelloMoodMetric" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				307303E31CCBFECF00B12127 /* Debug */,
+				307303E41CCBFECF00B12127 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		307303E51CCBFECF00B12127 /* Build configuration list for PBXNativeTarget "HelloMoodMetric" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				307303E61CCBFECF00B12127 /* Debug */,
+				307303E71CCBFECF00B12127 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		307303E81CCBFECF00B12127 /* Build configuration list for PBXNativeTarget "HelloMoodMetricTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				307303E91CCBFECF00B12127 /* Debug */,
+				307303EA1CCBFECF00B12127 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		307303EB1CCBFECF00B12127 /* Build configuration list for PBXNativeTarget "HelloMoodMetricUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				307303EC1CCBFECF00B12127 /* Debug */,
+				307303ED1CCBFECF00B12127 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 307303B81CCBFECF00B12127 /* Project object */;
+}
