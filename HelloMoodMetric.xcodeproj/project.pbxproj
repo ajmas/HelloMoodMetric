@@ -13,6 +13,7 @@
 		307303CB1CCBFECF00B12127 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 307303C91CCBFECF00B12127 /* Main.storyboard */; };
 		307303D61CCBFECF00B12127 /* HelloMoodMetricTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307303D51CCBFECF00B12127 /* HelloMoodMetricTests.swift */; };
 		307303E11CCBFECF00B12127 /* HelloMoodMetricUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307303E01CCBFECF00B12127 /* HelloMoodMetricUITests.swift */; };
+		307303EF1CCBFF2900B12127 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 307303EE1CCBFF2900B12127 /* CoreBluetooth.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		307303DC1CCBFECF00B12127 /* HelloMoodMetricUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloMoodMetricUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		307303E01CCBFECF00B12127 /* HelloMoodMetricUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloMoodMetricUITests.swift; sourceTree = "<group>"; };
 		307303E21CCBFECF00B12127 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		307303EE1CCBFF2900B12127 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				307303EF1CCBFF2900B12127 /* CoreBluetooth.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,6 +78,7 @@
 		307303B71CCBFECF00B12127 = {
 			isa = PBXGroup;
 			children = (
+				307303EE1CCBFF2900B12127 /* CoreBluetooth.framework */,
 				307303C21CCBFECF00B12127 /* HelloMoodMetric */,
 				307303D41CCBFECF00B12127 /* HelloMoodMetricTests */,
 				307303DF1CCBFECF00B12127 /* HelloMoodMetricUITests */,
