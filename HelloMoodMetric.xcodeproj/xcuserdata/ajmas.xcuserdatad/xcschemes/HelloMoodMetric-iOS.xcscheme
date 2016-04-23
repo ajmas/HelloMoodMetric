@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "307303BF1CCBFECF00B12127"
-               BuildableName = "HelloMoodMetric-OSX.app"
-               BlueprintName = "HelloMoodMetric-OSX"
+               BlueprintIdentifier = "307303F41CCC108B00B12127"
+               BuildableName = "HelloMoodMetric-iOS.app"
+               BlueprintName = "HelloMoodMetric-iOS"
                ReferencedContainer = "container:HelloMoodMetric.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -32,9 +32,9 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "307303D01CCBFECF00B12127"
-               BuildableName = "HelloMoodMetric-OSXTests.xctest"
-               BlueprintName = "HelloMoodMetric-OSXTests"
+               BlueprintIdentifier = "307304071CCC108C00B12127"
+               BuildableName = "HelloMoodMetric-iOSTests.xctest"
+               BlueprintName = "HelloMoodMetric-iOSTests"
                ReferencedContainer = "container:HelloMoodMetric.xcodeproj">
             </BuildableReference>
          </TestableReference>
@@ -42,9 +42,9 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "307303DB1CCBFECF00B12127"
-               BuildableName = "HelloMoodMetric-OSXUITests.xctest"
-               BlueprintName = "HelloMoodMetric-OSXUITests"
+               BlueprintIdentifier = "307304121CCC108C00B12127"
+               BuildableName = "HelloMoodMetric-iOSUITests.xctest"
+               BlueprintName = "HelloMoodMetric-iOSUITests"
                ReferencedContainer = "container:HelloMoodMetric.xcodeproj">
             </BuildableReference>
          </TestableReference>
@@ -52,9 +52,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "307303BF1CCBFECF00B12127"
-            BuildableName = "HelloMoodMetric-OSX.app"
-            BlueprintName = "HelloMoodMetric-OSX"
+            BlueprintIdentifier = "307303F41CCC108B00B12127"
+            BuildableName = "HelloMoodMetric-iOS.app"
+            BlueprintName = "HelloMoodMetric-iOS"
             ReferencedContainer = "container:HelloMoodMetric.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -75,9 +75,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "307303BF1CCBFECF00B12127"
-            BuildableName = "HelloMoodMetric-OSX.app"
-            BlueprintName = "HelloMoodMetric-OSX"
+            BlueprintIdentifier = "307303F41CCC108B00B12127"
+            BuildableName = "HelloMoodMetric-iOS.app"
+            BlueprintName = "HelloMoodMetric-iOS"
             ReferencedContainer = "container:HelloMoodMetric.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -94,9 +94,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "307303BF1CCBFECF00B12127"
-            BuildableName = "HelloMoodMetric-OSX.app"
-            BlueprintName = "HelloMoodMetric-OSX"
+            BlueprintIdentifier = "307303F41CCC108B00B12127"
+            BuildableName = "HelloMoodMetric-iOS.app"
+            BlueprintName = "HelloMoodMetric-iOS"
             ReferencedContainer = "container:HelloMoodMetric.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
